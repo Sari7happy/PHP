@@ -1,17 +1,17 @@
-<!-- 代入演算子””で文字列何も囲まないのを数字と判断 -->
-<!-- $appleりんごの値段、$apple_numはりんごを買う数-->
 <?php
-// if文の条件分岐,2にすると何も出ない
-$n = 2;
-if($n == 1){
-    //条件が成り立った時の処理,等しかった時は＝＝で表す
-    echo "好き";
-}elseif($n == 2){
-    // 条件が成り立った時の処理
-    echo "どちらとも言えない";
-}else{ 
-    // 条件が成り立たなかった時の処理
-    echo "嫌い";
+$omikuji = rand(1,10);
+// echo $omikuji;
+if($omikuji == 1){;
+    echo "大吉";
+}elseif($omikuji == 2){
+    echo "中吉";
+    //<=以下
+}elseif($omikuji <=4){
+    echo "小吉";
+}elseif($omikuji <=7){
+    echo "凶";
+}else{
+    echo "大凶";
 }
 ?>
 
