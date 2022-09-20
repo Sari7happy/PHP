@@ -1,17 +1,17 @@
 <?php
-$omikuji = rand(1,10);
-// echo $omikuji;
-if($omikuji == 1){;
-    echo "大吉";
-}elseif($omikuji == 2){
-    echo "中吉";
-    //<=以下
-}elseif($omikuji <=4){
-    echo "小吉";
-}elseif($omikuji <=7){
-    echo "凶";
-}else{
-    echo "大凶";
-}
+$hit = rand(1,10);
+    // echo $hit;
+    if($hit <6){
+        echo "スライムに".$hit."ダメージを与えた！";    
+    }else{
+        echo"クリティカルヒット!スライムに100のダメージを与えた!";
+
+    }
+
+
+
+
+
+
 ?>
 
