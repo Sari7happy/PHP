@@ -1,13 +1,8 @@
 <?php
-$hit = rand(1,10);
-    // echo $hit;
-    if($hit <6){
-        echo "スライムに".$hit."ダメージを与えた！";    
-    }else{
-        echo"クリティカルヒット!スライムに100のダメージを与えた!";
-
-    }
-
+$year = 1995;
+    echo "西暦". $year."年は、";
+$heisei =$year-1988;
+    echo "平成".$heisei."年です。";
 
 
 
