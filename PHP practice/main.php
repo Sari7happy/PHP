@@ -1,11 +1,11 @@
-<?php
-$year = 1995;
-    echo "西暦". $year."年は、";
-$heisei =$year-1988;
-    echo "平成".$heisei."年です。";
-
-
-
+<?php  
+// while文は繰り返しの処理
+$i = 2;
+while($i <= 50){
+    echo $i."\n";
+    $i++;
+    // ++でプラスしていく
+}
 
 
 ?>
